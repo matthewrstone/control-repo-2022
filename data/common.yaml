@@ -2,24 +2,25 @@
 ---
 chrony:
   servers: [ 'pool.ntp.org' ]
-hosts::host_entries:
-  'puppet.souldo.local':
-    ip: '192.168.5.205'
-    host_aliases:
-      - 'puppet'
-  'cd4pe.souldo.local':
-    ip: '192.168.5.206'
-    host_aliases:
-      - 'cd4pe'
-  'puppet-apps.souldo.local':
-    ip: '192.168.5.206'
-    host_aliases:
-      - 'puppet-apps'
-  'pam.souldo.local':
-    ip: '192.168.5.206'
-    host_aliases:
-      - 'pam'
-  'comply.souldo.local':
-    ip: '192.168.5.206'
-    host_aliases:
-      - 'comply'
+hosts:
+  host_entries:
+    'puppet.souldo.local':
+      ip: '192.168.5.205'
+      host_aliases:
+        - 'puppet'
+    'cd4pe.souldo.local':
+      ip: '192.168.5.206'
+      host_aliases:
+        - 'cd4pe'
+    'puppet-apps.souldo.local':
+      ip: '192.168.5.206'
+      host_aliases:
+        - 'puppet-apps'
+    'pam.souldo.local':
+      ip: '192.168.5.206'
+      host_aliases:
+        - 'pam'
+    'comply.souldo.local':
+      ip: '192.168.5.206'
+      host_aliases:
+        - 'comply'
